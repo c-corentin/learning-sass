@@ -39,6 +39,15 @@ nav li:hover {
   background-color: #525252;
 }
 
+button {
+  font-size: 150%;
+  border-radius: 9px;
+  border: 2px solid white;
+  padding: 16px 20px;
+  background-color: #E99002;
+  color: white;
+}
+
 header {
   background-color: #222222;
   max-height: 340px;
@@ -66,5 +75,83 @@ footer {
 .login {
   display: inline;
   padding-left: 200px;
+}
+
+.bluesec {
+  background-color: #1E93CC;
+  color: white;
+  padding: 20px 20px;
+}
+
+#jsgeek {
+  display: inline-block;
+  margin-right: 150px;
+}
+
+#bannercontain {
+  display: inline-block;
+  margin-bottom: 30px;
+  margin-left: 150px;
+}
+
+#bannercontain button {
+  margin-top: 30px;
+}
+
+#bannercontain img {
+  max-width: 300px;
+  max-height: 87px;
+}
+
+#bannercontain h1 {
+  font-size: 125%;
+  font-weight: 100;
+}
+
+article {
+  display: inline-block;
+  width: 500px;
+  text-align: left;
+  margin: 0 15px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.greysec {
+  background-color: #EEEEEE;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.greysec img {
+  margin: 10px;
+  padding: 10px;
+  max-width: 150px;
+  height: auto;
+}
+
+.logopartner {
+  display: inline-block;
+}
+
+.partnercont {
+  max-width: 60%;
+}
+
+.bottombutton {
+  margin: 40px 0 70px 0;
+}
+
+.nobuild {
+  background-color: #165882;
 }
 /*# sourceMappingURL=style.css.map */
