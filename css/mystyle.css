@@ -1,0 +1,160 @@
+body {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: white;
+}
+
+header {
+    background-color: #222222;
+    max-height: 340px;
+    padding: 9px 0;
+}
+
+footer {
+    background-color: #222222;
+    max-height: 340px;
+    padding: 9px 0;
+}
+
+#logoheader {
+    width: 80px;
+    height: 23px;
+    /*float: left;*/
+    display: inline-block;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 0 7px;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0 60px;
+    list-style-type: none;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 10px 0;
+    padding: 3px 3px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #525252;
+}
+
+.links {
+    display: inline;
+    margin-right: 50px;
+}
+
+.login {
+    display: inline;
+    padding-left: 200px;
+}
+
+li:hover {
+    background-color: #525252;
+}
+
+.bluesec {
+    background-color: #1E93CC;
+    color: white;
+    padding: 20px 20px;
+}
+
+#jsgeek {
+    display: inline-block;
+    margin-right: 150px;
+}
+
+#bannercontain {
+    display: inline-block;
+    margin-bottom: 30px;
+    margin-left: 150px;
+}
+
+#bannercontain button {
+    margin-top: 30px;
+}
+
+#bannercontain img {
+    max-width: 300px;
+    max-height: 87px;
+}
+
+#bannercontain h1 {
+    font-size: 125%;
+    font-weight: 100;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+article {
+    display: inline-block;
+    width: 500px;
+    text-align: left;
+    margin: 0 15px;
+}
+
+button {
+    font-size: 150%;
+    border-width: 2px;
+    border-radius: 9px;
+    border-color: white;
+    padding: 16px 20px;
+    background-color: #E99002;
+    color: white;
+}
+
+article h3 {
+    font-weight: 100;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+.greysec {
+    background-color: #EEEEEE;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.greysec img {
+    margin: 10px;
+    padding: 10px;
+    max-width: 150px;
+    height: auto;
+}
+
+.logopartner {
+    display: inline-block;
+}
+
+.partnercont {
+    max-width: 60%;
+}
+
+.bottombutton {
+    margin: 40px 0 70px 0;
+}
+
+.nobuild {
+    background-color: #165882;
+}
