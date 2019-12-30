@@ -3,10 +3,6 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
-a {
-    color: white;
-}
-
 header {
     background-color: #222222;
     max-height: 340px;

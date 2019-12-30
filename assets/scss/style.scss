@@ -1,4 +1,36 @@
 // use même fichier import différent fichier
 
 @import 'base';
-@import 'test';
+@import 'links';
+@import 'nav';
+
+$heafoo:#222222;
+
+header {
+    background-color: $heafoo;
+    max-height: 340px;
+    padding: 9px 0;
+}
+
+footer {
+    background-color: $heafoo;
+    max-height: 340px;
+    padding: 9px 0;
+}
+
+#logoheader {
+    width: 80px;
+    height: 23px;
+    /*float: left;*/
+    display: inline-block;
+}
+
+.links {
+    display: inline;
+    margin-right: 50px;
+}
+
+.login {
+    display: inline;
+    padding-left: 200px;
+}

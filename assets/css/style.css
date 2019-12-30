@@ -3,7 +3,68 @@ body {
   text-align: center;
 }
 
-p {
-  color: #a12222;
+a {
+  color: white;
+}
+
+nav {
+  display: inline-block;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0 60px;
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 3px 3px;
+  border-radius: 5px;
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 0 7px;
+}
+
+nav a:hover {
+  background-color: #525252;
+}
+
+nav li:hover {
+  background-color: #525252;
+}
+
+header {
+  background-color: #222222;
+  max-height: 340px;
+  padding: 9px 0;
+}
+
+footer {
+  background-color: #222222;
+  max-height: 340px;
+  padding: 9px 0;
+}
+
+#logoheader {
+  width: 80px;
+  height: 23px;
+  /*float: left;*/
+  display: inline-block;
+}
+
+.links {
+  display: inline;
+  margin-right: 50px;
+}
+
+.login {
+  display: inline;
+  padding-left: 200px;
 }
 /*# sourceMappingURL=style.css.map */
